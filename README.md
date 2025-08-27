@@ -20,6 +20,7 @@ Nursery Admin Management is a comprehensive backend solution that integrates wit
 - **Framework**: Express.js
 - **Authentication**: Firebase Admin
 - **Architecture**: Layered Architecture with Repository Pattern
+- **Dependency Management**: Dependency Injection (di-container)
 
 ## Key Features
 
