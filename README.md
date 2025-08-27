@@ -87,3 +87,11 @@ The API includes endpoints for:
 - Follows repository pattern for data access abstraction
 - Includes comprehensive error handling
 - Features middleware for authentication and authorization
+
+## API Endpoints
+
+- `/api/v1/users` - User management
+- `/api/v1/classes` - Class management
+- `/api/v1/children` - Children management
+- `/api/v1/notifications` - Notifications
+- `/api/v1/admin` - Admin creation (protected by API key)
