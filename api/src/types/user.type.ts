@@ -1,0 +1,20 @@
+import { z } from "zod";
+import { ParentUserSchema, NannyUserSchema, AdminUserSchema, UserSchema } from "@/schemas/user.schema";
+import type {NannyUserResponseDto, CreateNannyDto, UpdateNannyDto} from '@/dtos/user-dto/nanny-user.dto';
+import { CreateParentUserDto, CreateParentUserWithChildrenDto, ParentUserResponseDto, UpdateParentDto, ViewParentUserResponseDto } from "@/dtos/user-dto/parent-user.dto";
+import { CreateAdminDto, CreateAdminResponseDto } from "@/dtos/user-dto/admin-user.dto";
+
+export type ParentUser = z.infer<typeof ParentUserSchema>;
+export type NannyUser = z.infer<typeof NannyUserSchema>;
+export type AdminUser = z.infer<typeof AdminUserSchema>;
+export type User = z.infer<typeof UserSchema>;
+export type NannyUserResponse = z.infer<typeof NannyUserResponseDto>;
+export type CreateNannyUserDto = z.infer<typeof CreateNannyDto>;
+export type UpdateNannyDto = z.infer<typeof UpdateNannyDto>;
+export type CreateParentUserDto = z.infer<typeof CreateParentUserDto>;
+export type CreateParentUserWithChildrenDto = z.infer<typeof CreateParentUserWithChildrenDto>;
+export type ViewParentUserResponseDto = z.infer<typeof ViewParentUserResponseDto>;
+export type ParentUserResponseDto = z.infer<typeof ParentUserResponseDto>;
+export type UpdateParentDto = z.infer<typeof UpdateParentDto>;
+export type CreateAdminDto = z.infer<typeof CreateAdminDto>;
+export type CreateAdminResponseDto = z.infer<typeof CreateAdminResponseDto>;
