@@ -71,10 +71,11 @@ The API includes endpoints for:
    npm install
    ```
 3. Configure the application:
+   - Set up PORT in environment variables
    - Set up ADMIN_API_KEY in environment variables
    - Place your Firebase Admin SDK service account key in `config/ServiceAccountKey.json`
    
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    ```
